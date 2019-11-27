@@ -1,0 +1,23 @@
+{
+    "name": "chebur/array-functions",
+    "type": "library",
+    "description": "Functions dealing with arrays",
+    "homepage": "https://github.com/vchebotarev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Chebotarev",
+            "homepage": "http://github.com/vchebotarev",
+            "email": "v.yu.chebotarev@mail.ru"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/array_map_key.php",
+            "src/array_value.php"
+        ]
+    },
+    "require": {
+        "php": "^7.1.3"
+    }
+}
