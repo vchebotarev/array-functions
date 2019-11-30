@@ -76,3 +76,23 @@ if (!function_exists('array_value_array')) {
         return $array[$key];
     }
 }
+
+if (!function_exists('array_value_first')) {
+    function array_value_first(array $array)
+    {
+        if (count($array) === 0) {
+            return null;
+        }
+        return $array[array_keys($array)[0]];
+    }
+}
+
+if (!function_exists('array_value_last')) {
+    function array_value_last(array $array)
+    {
+        if (count($array) === 0) {
+            return null;
+        }
+        return $array[array_keys($array)[count($array)-1]];
+    }
+}
