@@ -6,3 +6,8 @@
 vendor/
 composer.lock
 composer.phar
+
+# PHPUnit
+.phpunit
+.phpunit.result.cache
+phpunit.xml

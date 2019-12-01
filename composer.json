@@ -17,7 +17,15 @@
             "src/array_value.php"
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Chebur\\ArrayFunctions\\Test\\": "tests"
+        }
+    },
     "require": {
         "php": "^7.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5 || ^8.4"
     }
 }
