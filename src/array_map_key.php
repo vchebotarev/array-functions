@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 if (!function_exists('array_map_key')) {
     function array_map_key(callable $callable, array $array): array
     {

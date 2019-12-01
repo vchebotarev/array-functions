@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 if (!function_exists('array_value')) {
     function array_value($key, array $array, $default = null)
     {
