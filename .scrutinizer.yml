@@ -1,0 +1,8 @@
+
+coding_style:
+    php:
+        upper_lower_casing:
+            keywords:
+                general: lower
+            constants:
+                true_false_null: lower

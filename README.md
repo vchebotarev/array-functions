@@ -5,6 +5,11 @@
 [![Latest version](https://img.shields.io/packagist/v/chebur/array-functions.svg)](https://packagist.org/packages/chebur/array-functions "Last version")
 [![Total downloads](https://img.shields.io/packagist/dt/chebur/array-functions.svg)](https://packagist.org/packages/chebur/array-functions "Total downloads")
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vchebotarev/array-functions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vchebotarev/array-functions/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/vchebotarev/array-functions/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/vchebotarev/array-functions/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/vchebotarev/array-functions/badges/build.png?b=master)](https://scrutinizer-ci.com/g/vchebotarev/array-functions/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/vchebotarev/array-functions/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+
 [![License](https://img.shields.io/packagist/l/chebur/array-functions.svg)](https://packagist.org/packages/chebur/array-functions "License")
 
 [![Coverage Status](https://coveralls.io/repos/github/vchebotarev/array-functions/badge.svg?branch=master)](https://coveralls.io/github/vchebotarev/array-functions?branch=master)
