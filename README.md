@@ -10,6 +10,8 @@
 [![Build Status](https://scrutinizer-ci.com/g/vchebotarev/array-functions/badges/build.png?b=master)](https://scrutinizer-ci.com/g/vchebotarev/array-functions/build-status/master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/vchebotarev/array-functions/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
+[![StyleCI](https://github.styleci.io/repos/224512702/shield)](https://styleci.io/repos/224512702)
+
 [![License](https://img.shields.io/packagist/l/chebur/array-functions.svg)](https://packagist.org/packages/chebur/array-functions "License")
 
 [![Coverage Status](https://coveralls.io/repos/github/vchebotarev/array-functions/badge.svg?branch=master)](https://coveralls.io/github/vchebotarev/array-functions?branch=master)
