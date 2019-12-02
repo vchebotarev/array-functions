@@ -4,7 +4,10 @@
 [![PHP requirements](https://img.shields.io/packagist/php-v/chebur/array-functions.svg)](https://packagist.org/packages/chebur/array-functions "PHP requirements")
 [![Latest version](https://img.shields.io/packagist/v/chebur/array-functions.svg)](https://packagist.org/packages/chebur/array-functions "Last version")
 [![Total downloads](https://img.shields.io/packagist/dt/chebur/array-functions.svg)](https://packagist.org/packages/chebur/array-functions "Total downloads")
+
 [![License](https://img.shields.io/packagist/l/chebur/array-functions.svg)](https://packagist.org/packages/chebur/array-functions "License")
+
+[![Coverage Status](https://coveralls.io/repos/github/vchebotarev/array-functions/badge.svg?branch=master)](https://coveralls.io/github/vchebotarev/array-functions?branch=master)
 
 ## Installation
 Require it with composer:
