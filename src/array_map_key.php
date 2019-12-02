@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+use TypeError;
+
 if (!function_exists('array_map_key')) {
     function array_map_key(callable $callable, array $array): array
     {
@@ -10,7 +12,7 @@ if (!function_exists('array_map_key')) {
         foreach ($array as $key => $value) {
             $newKey = $callable($key, $value, $i);
             if (!is_scalar($newKey)) {
-                throw new \TypeError('Callback must return scalar type data');
+                throw new TypeError('Callback must return scalar type data');
             }
             $resultArray[$newKey] = $value;
             $i++;

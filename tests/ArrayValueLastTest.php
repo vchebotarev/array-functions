@@ -53,7 +53,7 @@ class ArrayValueLastTest extends TestCase
             $this->assertInstanceOf(ArgumentCountError::class, $e);
         }
     }
-    
+
     /**
      * @test
      */

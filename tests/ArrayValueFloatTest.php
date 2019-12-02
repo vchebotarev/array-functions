@@ -16,7 +16,7 @@ class ArrayValueFloatTest extends TestCase
     /**
      * @test
      */
-    public function test()
+    public function test(): void
     {
         $this->assertEquals(123.123, array_value_float(2, [1, 2, 123.123]));
         $this->assertEquals(123.0, array_value_float(2, [1, 2, 123]));
@@ -25,7 +25,7 @@ class ArrayValueFloatTest extends TestCase
     /**
      * @test
      */
-    public function testDefault()
+    public function testDefault(): void
     {
         $dateProvider = [
             [],
@@ -36,7 +36,7 @@ class ArrayValueFloatTest extends TestCase
             //[1, 2, 123.123],
             [1, 2, new DateTime()],
             [1, 2, new ArrayObject([1, 2, 3])],
-            [1, 2, [123]]
+            [1, 2, [123]],
         ];
 
         foreach ($dateProvider as $testCase) {

@@ -16,7 +16,7 @@ class ArrayValueArrayTest extends TestCase
     /**
      * @test
      */
-    public function test()
+    public function test(): void
     {
         $this->assertEquals([1], array_value_array(2, [1, 2, [1]]));
     }
@@ -24,7 +24,7 @@ class ArrayValueArrayTest extends TestCase
     /**
      * @test
      */
-    public function testDefault()
+    public function testDefault(): void
     {
         $dateProvider = [
             [],

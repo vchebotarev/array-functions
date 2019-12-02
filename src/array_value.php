@@ -18,7 +18,6 @@ if (!function_exists('array_value_string')) {
         if (!is_string($array[$key])) {
             return $default;
         }
-
         return $array[$key];
     }
 }
@@ -32,7 +31,6 @@ if (!function_exists('array_value_int')) {
         if (!is_int($array[$key])) {
             return $default;
         }
-
         return $array[$key];
     }
 }
@@ -46,7 +44,6 @@ if (!function_exists('array_value_bool')) {
         if (!is_bool($array[$key])) {
             return $default;
         }
-
         return $array[$key];
     }
 }
@@ -60,7 +57,6 @@ if (!function_exists('array_value_float')) {
         if (!is_int($array[$key]) && !is_float($array[$key])) {
             return $default;
         }
-
         return $array[$key];
     }
 }
@@ -74,7 +70,6 @@ if (!function_exists('array_value_array')) {
         if (!is_array($array[$key])) {
             return $default;
         }
-
         return $array[$key];
     }
 }
@@ -95,6 +90,6 @@ if (!function_exists('array_value_last')) {
         if (count($array) === 0) {
             return null;
         }
-        return $array[array_keys($array)[count($array)-1]];
+        return $array[array_keys($array)[count($array) - 1]];
     }
 }

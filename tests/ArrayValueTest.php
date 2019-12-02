@@ -14,7 +14,7 @@ class ArrayValueTest extends TestCase
     /**
      * @test
      */
-    public function test()
+    public function test(): void
     {
         $this->assertEquals('123', array_value(2, [1, 2, '123']));
     }
@@ -22,7 +22,7 @@ class ArrayValueTest extends TestCase
     /**
      * @test
      */
-    public function testDefault()
+    public function testDefault(): void
     {
         $this->assertEquals(null, array_value(2, []));
         $this->assertEquals('4', array_value(2, [], '4'));

@@ -17,10 +17,10 @@ class ArrayMapKeyTest extends TestCase
     /**
      * @test
      */
-    public function test()
+    public function test(): void
     {
         $cases = [
-            [[],[]],
+            [[], []],
             [['13' => '3', '24' => '4'], ['1' => '3', '2' => '4']],
         ];
 
@@ -75,11 +75,11 @@ class ArrayMapKeyTest extends TestCase
             }
         }
 
-        $dateProvider[] = [1, 2, 3,];
+        $dateProvider[] = [1, 2, 3];
 
         foreach ($dateProvider as $argumentFirst) {
             try {
-                array_map_key($argumentFirst, [1, 2, 3,]);
+                array_map_key($argumentFirst, [1, 2, 3]);
             } catch (Throwable $e) {
                 $this->assertInstanceOf(TypeError::class, $e);
             }

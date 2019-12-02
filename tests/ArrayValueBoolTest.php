@@ -16,7 +16,7 @@ class ArrayValueBoolTest extends TestCase
     /**
      * @test
      */
-    public function test()
+    public function test(): void
     {
         $this->assertEquals(true, array_value_bool(2, [1, 2, true]));
     }
@@ -24,7 +24,7 @@ class ArrayValueBoolTest extends TestCase
     /**
      * @test
      */
-    public function testDefault()
+    public function testDefault(): void
     {
         $dateProvider = [
             [],
@@ -35,7 +35,7 @@ class ArrayValueBoolTest extends TestCase
             [1, 2, 123.123],
             [1, 2, new DateTime()],
             [1, 2, new ArrayObject([1, 2, 3])],
-            [1, 2, [123]]
+            [1, 2, [123]],
         ];
 
         foreach ($dateProvider as $testCase) {
