@@ -12,6 +12,10 @@ Require it with composer:
 composer require chebur/array-functions
 ```
 
+## TODO
+- array_add(array $array,  ... $values);
+- array_element(function($element): bool {}, array $array)
+
 ## Functions list
 - [array_map_key](#array_map_key)
 - [array_value_first](#array_value_first)
